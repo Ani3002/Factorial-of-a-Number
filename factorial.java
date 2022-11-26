@@ -8,15 +8,7 @@ import java.io.*;
 	FileOutputStream fos = new FileOutputStream(fout);
  
 	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
- 
-
-
-
-
-
-
-
-
+	     
             int j,fact1=1;  
             long number=999999999;//It is the number to calculate factorial    
             
