@@ -10,12 +10,11 @@ class factorial
         FileOutputStream fos = new FileOutputStream(fout);
         try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos))) 
         {
-            int j;
             Scanner sc = new Scanner(System.in);
             System.out.print ("Enter the number you want facorial of till: ");
             long number=sc.nextLong();
             sc.close();
-            for (j = 1; j <= number; j++) 
+            for (int j = 1; j <= number; j++) 
             {
                 BigInteger fact = new BigInteger("1");
                 long a = j;
